@@ -7,6 +7,16 @@ This repository provides data, code, and the trained machine learning model supp
 
 ---
 
+## Study overview
+
+The analysis quantifies the conditions under which transitioning from conventional tillage to no-tillage leads to SOC gains or losses. Key findings include:
+
+- Antecedent SOC stock (SOC_CT) is the dominant factor, with a threshold at **50 t ha⁻¹** beyond which SOC gains are less likely.  
+- Climatic aridity, expressed via the **Dryness Index (DI)**, and **Net Primary Productivity (NPP)** further determine SOC gain potential.  
+- Hierarchical classification identifies high- and low-potential cropland zones for SOC sequestration under regenerative agriculture practices.
+
+---
+
 ## Repository contents
 
 - **`Supporting_Dataset.xlsx`**  
@@ -32,12 +42,3 @@ This repository provides data, code, and the trained machine learning model supp
   Jupyter Notebook for calculating **Normalized Mutual Information (NMI)** among the governing features of the random forest classifier for SOC change following the no-tillage transition:  
   - (a) DI and SOC_CT  
   - (b) NPP and SOC_CT  
----
-
-## Study overview
-
-The analysis quantifies the conditions under which transitioning from conventional tillage to no-tillage leads to SOC gains or losses. Key findings include:
-
-- Antecedent SOC stock (SOC_CT) is the dominant factor, with a threshold at **50 t ha⁻¹** beyond which SOC gains are less likely.  
-- Climatic aridity, expressed via the **Dryness Index (DI)**, and **Net Primary Productivity (NPP)** further determine SOC gain potential.  
-- Hierarchical classification identifies high- and low-potential cropland zones for SOC sequestration under regenerative agriculture practices.
