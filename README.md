@@ -20,7 +20,11 @@ This repository provides data, code, and the trained machine learning model supp
   - Bins and groups dataset entries based on the sign of SOC change (∆SOC) and antecedent SOC under conventional tillage (SOC_CT).  
   - Applies the trained RFC model to reproduce the hierarchical classification framework.  
   - Demonstrates exploratory data analysis and visualizations corresponding to **Figures 1, 2, and 3** in the published manuscript.
-
+ 
+- **`NMI_Calculation.ipynb`**  
+  Jupyter Notebook for calculating **Normalized Mutual Information (NMI)** among the governing features of the random forest classifier for SOC change following the no-tillage transition:  
+  - (a) DI and SOC_CT  
+  - (b) NPP and SOC_CT  
 ---
 
 ## Study overview
