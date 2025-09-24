@@ -20,6 +20,13 @@ This repository provides data, code, and the trained machine learning model supp
   - Bins and groups dataset entries based on the sign of SOC change (∆SOC) and antecedent SOC under conventional tillage (SOC_CT).  
   - Applies the trained RFC model thresholds to reproduce the hierarchical classification framework.  
   - Demonstrates exploratory data analysis and visualizations corresponding to **Figures 1, 2, and 3** in the published manuscript.
+
+- **`PDP_plots.ipynb`**  
+  Jupyter Notebook illustrating the application of the fitted RFC model to estimate **marginal probabilities of negative SOC change** through partial dependence functions. It shows:  
+  - (a) Partial dependence on SOC_CT  
+  - (b) Partial dependence on Dryness Index (DI)  
+  - (c) Partial dependence on Net Primary Productivity (NPP)  
+  In each panel, the red dashed line marks the selected threshold used to delineate SOC potential gain zones under no-tillage transition. Light gray curves depict perturbed partial dependence functions, obtained by randomly sampling 100 times within the uncertainty ranges of each feature.
  
 - **`NMI_Calculation.ipynb`**  
   Jupyter Notebook for calculating **Normalized Mutual Information (NMI)** among the governing features of the random forest classifier for SOC change following the no-tillage transition:  
