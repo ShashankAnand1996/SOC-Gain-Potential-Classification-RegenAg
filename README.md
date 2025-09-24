@@ -13,12 +13,12 @@ This repository provides data, code, and the trained machine learning model supp
   Contains globally distributed paired-plot data from peer-reviewed field experiments comparing soil organic carbon (SOC) under conventional tillage (CT) and no-tillage with residue retention (NT). These entries provide the basis for model training and exploratory data analysis.
 
 - **`RF_BORDERLINE_SMOTE.joblib`**  
-  The trained random forest classifier (RFC) developed using imbalanced machine learning with Borderline-SMOTE to address the class imbalance between SOC gain and SOC loss. The model identifies thresholds for antecedent SOC, Dryness Index (DI), and Net Primary Productivity (NPP) that determine SOC gain potential under no-tillage transition.
+  The trained random forest classifier (RFC) was developed using imbalanced machine learning with Borderline-SMOTE to address the class imbalance between SOC gain and SOC loss. The model identifies thresholds for antecedent SOC, Dryness Index (DI), and Net Primary Productivity (NPP) that determine SOC gain potential under no-tillage transition.
 
 - **`SOC_Classification.ipynb`**  
   Jupyter Notebook that:  
   - Bins and groups dataset entries based on the sign of SOC change (∆SOC) and antecedent SOC under conventional tillage (SOC_CT).  
-  - Applies the trained RFC model to reproduce the hierarchical classification framework.  
+  - Applies the trained RFC model thresholds to reproduce the hierarchical classification framework.  
   - Demonstrates exploratory data analysis and visualizations corresponding to **Figures 1, 2, and 3** in the published manuscript.
  
 - **`NMI_Calculation.ipynb`**  
